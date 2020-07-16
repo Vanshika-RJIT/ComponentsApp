@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="23sp"
+            /> <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="23sp"
+            /> <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+        android:layout_margin="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="23sp"
+            /> <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+        android:layout_margin="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="23sp"
+            /> <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+        android:layout_margin="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="23sp"
+            /> <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+        android:layout_margin="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="23sp"
+            />
+    </LinearLayout>
+
+</HorizontalScrollView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+>       <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+            android:layout_weight="0.1"
+            android:text="@string/on_off" />
+    <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+              android:layout_weight="0.1"
+            android:text="@string/on_off" />
+</LinearLayout>
+
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOff="@string/off"
+            android:textOn="@string/on"
+            android:checked="true"
+            android:text="@string/togglebutton" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fAB1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="btn"
+            app:elevation="23dp"
+            android:layout_gravity="bottom|center"
+            android:src="@android:drawable/alert_dark_frame"
+            android:focusable="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:contentDescription="@string/todo6"
+            android:src="@android:drawable/btn_star" />
+
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:src="@android:drawable/btn_star_big_off"
+        android:contentDescription="@string/todo9" />   <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:src="@android:drawable/btn_star_big_off"
+    android:contentDescription="@string/todo8" />   <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:src="@android:drawable/btn_star_big_off"
+    android:contentDescription="@string/todo" />   <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:src="@android:drawable/btn_star_big_off"
+    android:contentDescription="@string/todo1" />   <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:src="@android:drawable/btn_star_big_off"
+    android:contentDescription="@string/todo10" />   <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:src="@android:drawable/btn_star_big_off"
+    android:contentDescription="@string/todo7" />   <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:src="@android:drawable/btn_star_big_off"
+    android:contentDescription="@string/todo2" />  <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:src="@android:drawable/btn_star_big_off"
+    android:contentDescription="@string/todo5" />
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hello"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="23sp"
+                    /> <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hello"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="23sp"
+                /> <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hello"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="23sp"
+                /> <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hello"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="23sp"
+                /> <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hello"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="23sp"
+                /> <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hello"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="23sp"
+                />
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

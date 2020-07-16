@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Components App</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="todo7">TODO</string>
+    <string name="todo8">TODO</string>
+    <string name="todo9">TODO</string>
+    <string name="todo10">TODO</string>
+    <string name="hello">hello</string>
+    <string name="on_off">On/Off</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+</resources>
